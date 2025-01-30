@@ -1,0 +1,39 @@
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100svh;
+}
+
+header h1{
+    text-align: center;
+    line-height: 8.0rem;
+    background-color: #222;
+    color: #fff;
+}
+
+.main-article{
+    max-width: 80rem;
+    margin: 5rem auto 0;
+    background-color: #fafafa;
+    box-shadow: 0 0 15rem hsl(0, 1%, 35%);
+}
+
+.main-article h2{
+    line-height: 5rem;
+    text-align: center;
+    color: #fff;
+    background-color: #222;
+    margin: 0;
+}
+
+.main-article p{
+    padding: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+}
+
+.btn-custom-css{
+    display: block;
+}
