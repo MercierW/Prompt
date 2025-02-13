@@ -38,3 +38,7 @@ footer p{
     display: block;
     margin: 5px;
 }
+
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
+    line-height: initial;
+}
